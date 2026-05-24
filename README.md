@@ -1,8 +1,13 @@
 # VulnFeed — Dependency Vulnerability Monitoring for Claude Code
 
+[![PyPI](https://img.shields.io/pypi/v/vulnfeed-mcp)](https://pypi.org/project/vulnfeed-mcp/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+
 An MCP server that scans your project dependencies for known vulnerabilities, enriches with EPSS exploit probability scores, and recommends fix versions.
 
 **Free tier** — 10 scans/day, 1 monitored project, no signup required.
+
+**Homepage:** [vulnfeed.novadyne.ai](https://vulnfeed.novadyne.ai)
 
 ## Install
 
