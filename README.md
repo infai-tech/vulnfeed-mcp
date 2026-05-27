@@ -1,5 +1,6 @@
 # VulnFeed — Dependency Vulnerability Monitoring for Claude Code
 
+[![CI](https://github.com/infai-tech/vulnfeed-mcp/actions/workflows/ci.yml/badge.svg)](https://github.com/infai-tech/vulnfeed-mcp/actions/workflows/ci.yml)
 [![PyPI](https://img.shields.io/pypi/v/vulnfeed-mcp)](https://pypi.org/project/vulnfeed-mcp/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 

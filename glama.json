@@ -1,0 +1,15 @@
+{
+  "name": "vulnfeed-mcp",
+  "display_name": "VulnFeed",
+  "description": "Dependency vulnerability monitoring MCP server — knows your lockfile, prioritizes by EPSS exploit probability, recommends fix versions.",
+  "categories": ["security", "developer-tools"],
+  "author": {
+    "name": "Novadyne",
+    "url": "https://vulnfeed.novadyne.ai"
+  },
+  "repository": "https://github.com/infai-tech/vulnfeed-mcp",
+  "homepage": "https://vulnfeed.novadyne.ai",
+  "license": "MIT",
+  "runtime": "python",
+  "install": "uvx vulnfeed-mcp"
+}
