@@ -10,12 +10,23 @@ readme = "README.md"
 license = {text = "MIT"}
 requires-python = ">=3.10"
 authors = [{ name = "Novadyne", email = "support@infaicorp.com" }]
-keywords = ["mcp", "security", "vulnerability", "cve", "epss"]
+keywords = ["mcp", "mcp-server", "security", "vulnerability", "vulnerability-scanner", "cve", "epss", "dependency-scanning", "claude-code", "x402", "micropayments", "sbom", "supply-chain-security"]
 classifiers = [
     "Development Status :: 4 - Beta",
     "Intended Audience :: Developers",
+    "Intended Audience :: Information Technology",
+    "Intended Audience :: System Administrators",
     "Topic :: Security",
     "Topic :: Software Development :: Quality Assurance",
+    "Topic :: Software Development :: Testing",
+    "Framework :: FastAPI",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Typing :: Typed",
 ]
 dependencies = ["mcp>=1.0"]
 

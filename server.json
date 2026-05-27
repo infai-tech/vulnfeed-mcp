@@ -1,0 +1,21 @@
+{
+  "$schema": "https://registry.modelcontextprotocol.io/schemas/server.json",
+  "name": "vulnfeed-mcp",
+  "description": "Dependency vulnerability monitoring MCP server — scans lockfiles, prioritizes by EPSS exploit probability, recommends fix versions. 9 tools for scanning, monitoring, and alerting. Free tier + paid subscription + x402 micropayments.",
+  "repository": "https://github.com/infai-tech/vulnfeed-mcp",
+  "packages": [
+    {
+      "registryType": "pypi",
+      "identifier": "vulnfeed-mcp",
+      "version": "0.3.1",
+      "transport": ["stdio"]
+    }
+  ],
+  "environmentVariables": [
+    {
+      "name": "VULNFEED_API_KEY",
+      "description": "Polar.sh license key for paid tier (optional — free tier works without it)",
+      "required": false
+    }
+  ]
+}

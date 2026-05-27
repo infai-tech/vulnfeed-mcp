@@ -49,6 +49,14 @@ Add to your MCP client config (`~/.claude/settings.json` for Claude Code, `claud
 
 Get a license key at [vulnfeed.novadyne.ai](https://vulnfeed.novadyne.ai).
 
+### x402 micropayments
+
+VulnFeed also accepts [x402](https://x402.org) micropayments — AI agents can pay per scan with USDC on Base, no API key or signup needed. When the free tier limit is reached, the API returns HTTP 402 with payment requirements that x402-compatible clients handle automatically.
+
+- $0.01 per scan
+- $0.002 per CVE lookup
+- $0.05 per project monitor setup
+
 ## Tools
 
 ### Scanning
