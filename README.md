@@ -1,3 +1,4 @@
+<!-- mcp-name: io.github.infai-tech/vulnfeed -->
 # VulnFeed — Dependency Vulnerability Monitoring for Claude Code
 
 [![CI](https://github.com/infai-tech/vulnfeed-mcp/actions/workflows/ci.yml/badge.svg)](https://github.com/infai-tech/vulnfeed-mcp/actions/workflows/ci.yml)
