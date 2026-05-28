@@ -4,6 +4,7 @@
 [![CI](https://github.com/infai-tech/vulnfeed-mcp/actions/workflows/ci.yml/badge.svg)](https://github.com/infai-tech/vulnfeed-mcp/actions/workflows/ci.yml)
 [![PyPI](https://img.shields.io/pypi/v/vulnfeed-mcp)](https://pypi.org/project/vulnfeed-mcp/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![vulnfeed-mcp MCP server](https://glama.ai/mcp/servers/infai-tech/vulnfeed-mcp/badges/score.svg)](https://glama.ai/mcp/servers/infai-tech/vulnfeed-mcp)
 
 An MCP server that scans your project dependencies for known vulnerabilities, enriches with EPSS exploit probability scores, and recommends fix versions.
 
